@@ -5,7 +5,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- <script src="js/vue-producao.js"></script> -->
+
+	<!-- Google Fonts Roboto -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -41,7 +45,7 @@
 		<!-- about -->
 		<section id="about">
 			<div class="preview">
-				<h2 class="tt40px"><span class="green-color">Feel</span> the songs</h2>
+				<h2 class="tt40px"><span class="green-color">Feel</span> the songs.</h2>
 				<h2 class="tt40px">Travel in your <span class="green-color">emotions</span>.</h2>
 				<div class="player-preview">
 					<video controls class="media" width="100%" height="100%">
