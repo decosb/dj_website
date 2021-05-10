@@ -53,7 +53,7 @@
 
 					<!-- 1. Tag Video do Youtube -->
 					<div id="player"></div>
-					
+
 				</div>				
 			</div>
 		</section>
@@ -537,8 +537,8 @@
 
 	<!-- footer -->
 	<footer id="footer">
-		<div class="footer-brand">dj patrick case - &copy;2020</div>
-		<div class="developer">by <span><a title="DecoDesign" class="name-dev" href="">DecoDesign</span></a></div>
+		<div class="footer-brand">dj Your Name - &copy;2020</div>
+		<div class="developer">by <span><a title="DecoDesign" class="name-dev" href="mailto:decodesign85@yahoo.com.br">DecoDesign</span></a></div>
 		<div class="box-social-media">
 			<ul>
 				<li><a title="Facebook" href="">
