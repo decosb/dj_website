@@ -53,14 +53,7 @@
 
 					<!-- 1. Tag Video do Youtube -->
 					<div id="player"></div>
-
-					<!-- <iframe id="player" class="media" width="400" height="250" src="https://www.youtube.com/embed/FtuoEtohPv4" title="YouTube Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-
-					<!-- <video controls class="media" width="100%" height="100%">
-						<source class="video-extension" type="video/mp4">
-						<source class="video-extension" type="video/ogg">
-						Your browser does not support the video tag.
-					</video> -->
+					
 				</div>				
 			</div>
 		</section>
