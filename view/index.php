@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>DJ - Patrick Case</title>
+	<title>DJ - Your Name</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -22,7 +22,7 @@
 			<div class="brand">
 				<a href="">
 				<img src="images/brand-logo.png">
-				<h1 class="title-site">Patrick Case</h1>
+				<h1 class="title-site">Your Name</h1>
 				</a>
 			</div>
 			<div class="menu-desktop">
@@ -47,12 +47,20 @@
 			<div class="preview">
 				<h2 class="tt40px"><span class="green-color">Feel</span> the songs.</h2>
 				<h2 class="tt40px">Travel in your <span class="green-color">emotions</span>.</h2>
+
+				<!-- Video Header -->
 				<div class="player-preview">
-					<video controls class="media" width="100%" height="100%">
-						<source src="media/vindu-gaijin.mp4" type="video/mp4">
-						<source src="media/vindu-gaijin.ogg" type="video/ogg">
+
+					<!-- 1. Tag Video do Youtube -->
+					<div id="player"></div>
+
+					<!-- <iframe id="player" class="media" width="400" height="250" src="https://www.youtube.com/embed/FtuoEtohPv4" title="YouTube Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+					<!-- <video controls class="media" width="100%" height="100%">
+						<source class="video-extension" type="video/mp4">
+						<source class="video-extension" type="video/ogg">
 						Your browser does not support the video tag.
-					</video>
+					</video> -->
 				</div>				
 			</div>
 		</section>
@@ -566,6 +574,7 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/menu.js"></script>
+<script src="js/media.js"></script>
 <script src="js/gallery.js"></script>
 <script src="js/playlist.js"></script>
 <script src="js/scroll.js"></script>
