@@ -15,27 +15,11 @@ $(".textbox").parents("about-text").click(function(){
 	$(".box-shadow-section").addClass("hide");
 })
 
-// scroll page
-$("header a").click(function(event){
-		if(this.hash !== "") {
-			event.preventDefault();
-			var hash = this.hash;
-
-			$("html, body").animate({
-				scrollTop: $(hash).offset().top
-			}, 1000, function(){
-				window.location.hash;
-			});
-			$(".box-menu-mobile").addClass("hide");
-			$(".menu-mobile").removeClass("showMenu");
-		}
-	})
-
 // mobile
 $(".menu-hamburguer").click(function(){
-	//$(this).toggleClass("animate_mobile_btn");
 	$(".box-menu-mobile").toggleClass("hide");
 	$(".menu-mobile").toggleClass("showMenu");
+	$("#header").toggleClass("posFixed");
 
 })
 
@@ -45,7 +29,6 @@ $(".box-menu-mobile").click(function(event){
 		$(".menu-mobile").removeClass("showMenu");
 	}
 })
-
 
 })
 

@@ -149,6 +149,10 @@
 		transform: translateX(30vw);
 	}
 
+	.posFixed {
+		position: fixed!important;
+	}
+
 	.hide {
 		opacity: 0;
 		pointer-events: none;
@@ -198,14 +202,16 @@
 
 	/** header **/
 
-	header {
+	header#header {
 		flex-direction: column;
 		background-image: url('../images/bg-header.jpg');
 		background-size: cover;
 		background-position: center;
 		overflow: hidden;
 		padding: 0px;
-		min-height: 100vh;
+		min-width: 100%;
+		min-height: 100%;
+		z-index: 3;
 	}
 
 	/** menu **/
@@ -435,7 +441,7 @@
 
 	.menu-mobile {
 		position: relative;
-		width: 70vw;
+		width: 80vw;
 		height: 100vh;
 		background-color: #f3efef;
 		border-left: 1px solid #CECECE;
@@ -1284,8 +1290,4 @@
 		/*#gallery {
 			justify-content: center;
 		}*/
-
-		.menu-mobile {
-			width: 100vw;
-		}
 	}
